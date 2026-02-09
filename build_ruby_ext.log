@@ -1,0 +1,356 @@
+Bundler 4.0.6 is running, but your lockfile was generated with 2.5.3. Installing Bundler 2.5.3 and restarting using that version.
+Fetching gem metadata from https://rubygems.org/.
+Fetching bundler 2.5.3
+
+Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/var/lib/gems/3.2.0/cache/bundler-2.5.3.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/var/lib/gems/3.2.0/cache/bundler-2.5.3.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/var/lib/gems/3.2.0/cache/bundler-2.5.3.gem`. It is likely that you need to grant write permissions for that path.
+
+There was an error installing the locked bundler version (2.5.3), rerun with the `--verbose` flag for more details. Going on using bundler 4.0.6.
+Fetching gem metadata from https://rubygems.org/.
+Resolving dependencies...
+Fetching rake 13.2.0
+
+Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/var/lib/gems/3.2.0/cache/rake-13.2.0.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/var/lib/gems/3.2.0/cache/rake-13.2.0.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/var/lib/gems/3.2.0/cache/rake-13.2.0.gem`. It is likely that you need to grant write permissions for that path.
+
+Fetching ffi 1.16.3
+
+Retrying download gem from https://rubygems.org/ due to error (2/4): Bundler::PermissionError There was an error while trying to write to `/var/lib/gems/3.2.0/cache/ffi-1.16.3.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (3/4): Bundler::PermissionError There was an error while trying to write to `/var/lib/gems/3.2.0/cache/ffi-1.16.3.gem`. It is likely that you need to grant write permissions for that path.
+
+Retrying download gem from https://rubygems.org/ due to error (4/4): Bundler::PermissionError There was an error while trying to write to `/var/lib/gems/3.2.0/cache/ffi-1.16.3.gem`. It is likely that you need to grant write permissions for that path.
+
+Bundler::PermissionError: There was an error while trying to write to `/var/lib/gems/3.2.0/cache/rake-13.2.0.gem`. It is
+likely that you need to grant write permissions for that path.
+/home/runner/.local/share/gem/ruby/3.2.0/gems/bundler-4.0.6/lib/bundler/shared_helpers.rb:110:in `rescue in
+filesystem_access'
+  /home/runner/.local/share/gem/ruby/3.2.0/gems/bundler-4.0.6/lib/bundler/shared_helpers.rb:105:in `filesystem_access'
+/home/runner/.local/share/gem/ruby/3.2.0/gems/bundler-4.0.6/lib/bundler/rubygems_integration.rb:392:in `block in
+download_gem'
+  /home/runner/.local/share/gem/ruby/3.2.0/gems/bundler-4.0.6/lib/bundler/retry.rb:40:in `run'
+  /home/runner/.local/share/gem/ruby/3.2.0/gems/bundler-4.0.6/lib/bundler/retry.rb:30:in `attempt'
+  /home/runner/.local/share/gem/ruby/3.2.0/gems/bundler-4.0.6/lib/bundler/rubygems_integration.rb:384:in `download_gem'
+/home/runner/.local/share/gem/ruby/3.2.0/gems/bundler-4.0.6/lib/bundler/source/rubygems.rb:487:in `block in
+download_gem'
+  /usr/lib/ruby/vendor_ruby/rubygems.rb:962:in `time'
+  /home/runner/.local/share/gem/ruby/3.2.0/gems/bundler-4.0.6/lib/bundler/source/rubygems.rb:486:in `download_gem'
+  /home/runner/.local/share/gem/ruby/3.2.0/gems/bundler-4.0.6/lib/bundler/source/rubygems.rb:442:in `fetch_gem'
+/home/runner/.local/share/gem/ruby/3.2.0/gems/bundler-4.0.6/lib/bundler/source/rubygems.rb:426:in
+`fetch_gem_if_possible'
+  /home/runner/.local/share/gem/ruby/3.2.0/gems/bundler-4.0.6/lib/bundler/source/rubygems.rb:171:in `install'
+  /home/runner/.local/share/gem/ruby/3.2.0/gems/bundler-4.0.6/lib/bundler/installer/gem_installer.rb:54:in `install'
+/home/runner/.local/share/gem/ruby/3.2.0/gems/bundler-4.0.6/lib/bundler/installer/gem_installer.rb:17:in
+`install_from_spec'
+/home/runner/.local/share/gem/ruby/3.2.0/gems/bundler-4.0.6/lib/bundler/installer/parallel_installer.rb:133:in
+`do_install'
+  /home/runner/.local/share/gem/ruby/3.2.0/gems/bundler-4.0.6/lib/bundler/installer/parallel_installer.rb:87:in `call'
+  /home/runner/.local/share/gem/ruby/3.2.0/gems/bundler-4.0.6/lib/bundler/installer/parallel_installer.rb:66:in `call'
+  /home/runner/.local/share/gem/ruby/3.2.0/gems/bundler-4.0.6/lib/bundler/installer.rb:193:in `install'
+  /home/runner/.local/share/gem/ruby/3.2.0/gems/bundler-4.0.6/lib/bundler/installer.rb:78:in `block in run'
+  /home/runner/.local/share/gem/ruby/3.2.0/gems/bundler-4.0.6/lib/bundler/process_lock.rb:16:in `rescue in lock'
+  /home/runner/.local/share/gem/ruby/3.2.0/gems/bundler-4.0.6/lib/bundler/process_lock.rb:11:in `lock'
+  /home/runner/.local/share/gem/ruby/3.2.0/gems/bundler-4.0.6/lib/bundler/installer.rb:65:in `run'
+  /home/runner/.local/share/gem/ruby/3.2.0/gems/bundler-4.0.6/lib/bundler/installer.rb:17:in `install'
+  /home/runner/.local/share/gem/ruby/3.2.0/gems/bundler-4.0.6/lib/bundler/cli/install.rb:50:in `run'
+  /home/runner/.local/share/gem/ruby/3.2.0/gems/bundler-4.0.6/lib/bundler/cli.rb:291:in `block in install'
+  /home/runner/.local/share/gem/ruby/3.2.0/gems/bundler-4.0.6/lib/bundler/settings.rb:143:in `temporary'
+  /home/runner/.local/share/gem/ruby/3.2.0/gems/bundler-4.0.6/lib/bundler/cli.rb:290:in `install'
+  /home/runner/.local/share/gem/ruby/3.2.0/gems/bundler-4.0.6/lib/bundler/vendor/thor/lib/thor/command.rb:28:in `run'
+/home/runner/.local/share/gem/ruby/3.2.0/gems/bundler-4.0.6/lib/bundler/vendor/thor/lib/thor/invocation.rb:127:in
+`invoke_command'
+  /home/runner/.local/share/gem/ruby/3.2.0/gems/bundler-4.0.6/lib/bundler/vendor/thor/lib/thor.rb:538:in `dispatch'
+  /home/runner/.local/share/gem/ruby/3.2.0/gems/bundler-4.0.6/lib/bundler/cli.rb:35:in `dispatch'
+  /home/runner/.local/share/gem/ruby/3.2.0/gems/bundler-4.0.6/lib/bundler/vendor/thor/lib/thor/base.rb:584:in `start'
+  /home/runner/.local/share/gem/ruby/3.2.0/gems/bundler-4.0.6/lib/bundler/cli.rb:29:in `start'
+  /home/runner/.local/share/gem/ruby/3.2.0/gems/bundler-4.0.6/exe/bundle:28:in `block in <top (required)>'
+/home/runner/.local/share/gem/ruby/3.2.0/gems/bundler-4.0.6/lib/bundler/friendly_errors.rb:118:in
+`with_friendly_errors'
+  /home/runner/.local/share/gem/ruby/3.2.0/gems/bundler-4.0.6/exe/bundle:20:in `<top (required)>'
+  /home/runner/.local/share/gem/ruby/3.2.0/bin/bundle:25:in `load'
+  /home/runner/.local/share/gem/ruby/3.2.0/bin/bundle:25:in `<main>'
+
+An error occurred while installing rake (13.2.0), and Bundler cannot continue.
+
+In Gemfile:
+  rake
+Bundler 4.0.6 is running, but your lockfile was generated with 2.5.3. Installing Bundler 2.5.3 and restarting using that version.
+Fetching gem metadata from https://rubygems.org/.
+Fetching bundler 2.5.3
+Installing bundler 2.5.3
+Fetching gem metadata from https://rubygems.org/.
+Resolving dependencies...
+Fetching rake 13.2.0
+Installing rake 13.2.0
+Fetching ffi 1.16.3
+Installing ffi 1.16.3 with native extensions
+Using pyroscope 0.6.7 (was 0.6.1) from source at `.`
+Bundle complete! 3 Gemfile dependencies, 4 gems now installed.
+Bundled gems are installed into `./vendor/bundle`
+rake aborted!
+Don't know how to build task 'compile' (See the list of available tasks with `rake --tasks`)
+/home/runner/work/pyroscope-rs/pyroscope-rs/pyroscope_ffi/ruby/vendor/bundle/ruby/3.2.0/gems/rake-13.2.0/exe/rake:27:in `<top (required)>'
+(See full trace by running task with --trace)
+cd /home/runner/work/pyroscope-rs/pyroscope-rs/pyroscope_ffi/ruby/ext/rbspy
+cargo rustc --locked --release --target=x86_64-unknown-linux-gnu -- -C linker=x86_64-linux-gnu-gcc -L native=/usr/lib -C link_arg=-Wl,-Bsymbolic-functions -C link_arg=-Wl,-z,relro -C link_arg=-Wl,-z,now
+   Compiling proc-macro2 v1.0.95
+   Compiling unicode-ident v1.0.18
+   Compiling libc v0.2.177
+   Compiling cfg-if v1.0.3
+   Compiling memchr v2.7.4
+   Compiling autocfg v1.4.0
+   Compiling quote v1.0.40
+   Compiling syn v2.0.101
+   Compiling serde_core v1.0.227
+   Compiling pin-project-lite v0.2.16
+   Compiling once_cell v1.21.3
+   Compiling smallvec v1.15.0
+   Compiling serde v1.0.227
+   Compiling zerocopy v0.8.25
+   Compiling jobserver v0.1.34
+   Compiling futures-core v0.3.31
+   Compiling stable_deref_trait v1.2.0
+   Compiling find-msvc-tools v0.1.7
+   Compiling shlex v1.3.0
+   Compiling cc v1.2.52
+   Compiling bytes v1.10.1
+   Compiling getrandom v0.3.3
+   Compiling itoa v1.0.15
+   Compiling cmake v0.1.57
+   Compiling log v0.4.28
+   Compiling fs_extra v1.3.0
+   Compiling dunce v1.0.5
+   Compiling aws-lc-sys v0.35.0
+   Compiling crossbeam-utils v0.8.21
+   Compiling futures-io v0.3.31
+   Compiling slab v0.4.9
+   Compiling zeroize v1.8.1
+   Compiling version_check v0.9.5
+   Compiling synstructure v0.13.2
+   Compiling aws-lc-rs v1.15.2
+   Compiling ahash v0.8.12
+   Compiling socket2 v0.5.10
+   Compiling mio v1.0.4
+   Compiling aho-corasick v1.1.3
+   Compiling writeable v0.6.1
+   Compiling anyhow v1.0.100
+   Compiling fnv v1.0.7
+   Compiling futures-sink v0.3.31
+   Compiling bitflags v2.9.1
+   Compiling zerofrom-derive v0.1.6
+   Compiling yoke-derive v0.8.0
+   Compiling serde_derive v1.0.227
+   Compiling zerofrom v0.1.6
+   Compiling yoke v0.8.0
+   Compiling zerovec-derive v0.11.1
+   Compiling zerovec v0.11.2
+   Compiling displaydoc v0.2.5
+   Compiling serde_json v1.0.145
+   Compiling litemap v0.8.0
+   Compiling tinystr v0.8.1
+   Compiling regex-syntax v0.8.5
+   Compiling icu_locale_core v2.0.0
+   Compiling zerotrie v0.2.2
+   Compiling potential_utf v0.1.2
+   Compiling http v1.3.1
+   Compiling regex-automata v0.4.9
+   Compiling tokio v1.45.1
+   Compiling rustls-pki-types v1.12.0
+   Compiling crc32fast v1.4.2
+   Compiling icu_properties_data v2.0.1
+   Compiling futures-task v0.3.31
+   Compiling pin-utils v0.1.0
+   Compiling icu_normalizer_data v2.0.0
+   Compiling futures-util v0.3.31
+   Compiling regex v1.11.1
+   Compiling http-body v1.0.1
+   Compiling icu_collections v2.0.0
+   Compiling icu_provider v2.0.0
+   Compiling ppv-lite86 v0.2.21
+   Compiling lock_api v0.4.13
+   Compiling allocator-api2 v0.2.21
+   Compiling httparse v1.10.1
+   Compiling rustls v0.23.27
+   Compiling untrusted v0.9.0
+   Compiling percent-encoding v2.3.2
+   Compiling hashbrown v0.14.5
+   Compiling try-lock v0.2.5
+   Compiling tower-service v0.3.3
+   Compiling scopeguard v1.2.0
+   Compiling subtle v2.6.1
+   Compiling utf8parse v0.2.2
+   Compiling adler2 v2.0.0
+   Compiling miniz_oxide v0.8.8
+   Compiling anstyle-parse v0.2.6
+   Compiling want v0.3.1
+   Compiling icu_normalizer v2.0.0
+   Compiling icu_properties v2.0.1
+   Compiling futures-channel v0.3.31
+   Compiling concurrent-queue v2.5.0
+   Compiling getrandom v0.2.16
+   Compiling tracing-core v0.1.33
+   Compiling colorchoice v1.0.3
+   Compiling rustix v1.0.7
+   Compiling object v0.37.3
+   Compiling equivalent v1.0.2
+   Compiling cpp_demangle v0.4.4
+   Compiling anstyle v1.0.10
+   Compiling parking v2.2.1
+   Compiling ryu v1.0.20
+   Compiling hashbrown v0.15.3
+   Compiling either v1.15.0
+   Compiling is_terminal_polyfill v1.70.1
+   Compiling anstyle-query v1.1.2
+   Compiling twox-hash v2.1.2
+   Compiling fastrand v2.3.0
+   Compiling ruzstd v0.8.2
+   Compiling anstream v0.6.18
+   Compiling indexmap v2.9.0
+   Compiling itertools v0.14.0
+   Compiling event-listener v5.4.0
+   Compiling tracing v0.1.41
+   Compiling idna_adapter v1.2.1
+   Compiling rand_core v0.6.4
+   Compiling hyper v1.6.0
+   Compiling flate2 v1.1.2
+   Compiling serde_spanned v0.6.8
+   Compiling toml_datetime v0.6.9
+   Compiling form_urlencoded v1.2.2
+   Compiling scroll_derive v0.13.1
+   Compiling sync_wrapper v1.0.2
+   Compiling clap_lex v0.7.4
+   Compiling parking_lot_core v0.9.11
+   Compiling base64 v0.22.1
+   Compiling semver v1.0.27
+   Compiling winnow v0.7.10
+   Compiling ipnet v2.11.0
+   Compiling linux-raw-sys v0.9.4
+   Compiling strsim v0.11.1
+   Compiling tower-layer v0.3.3
+   Compiling proc-maps v0.4.0
+   Compiling openssl-probe v0.2.0
+   Compiling cfg_aliases v0.2.1
+   Compiling thiserror v2.0.17
+   Compiling utf8_iter v1.0.4
+   Compiling toml_write v0.1.1
+   Compiling idna v1.1.0
+   Compiling rustls-native-certs v0.8.3
+   Compiling toml_edit v0.22.26
+   Compiling nix v0.30.1
+   Compiling tower v0.5.2
+   Compiling clap_builder v4.5.47
+   Compiling hyper-util v0.1.13
+   Compiling rustc_version v0.4.1
+   Compiling scroll v0.13.0
+   Compiling prost-derive v0.14.1
+   Compiling rand_chacha v0.3.1
+   Compiling event-listener-strategy v0.5.4
+   Compiling thiserror-impl v2.0.17
+   Compiling memmap2 v0.9.8
+   Compiling num-traits v0.2.19
+   Compiling core2 v0.4.0
+   Compiling gimli v0.32.3
+   Compiling atomic-waker v1.1.2
+   Compiling names v0.14.0
+   Compiling rustc-demangle v0.1.24
+   Compiling winapi v0.3.9
+   Compiling bitflags v1.3.2
+   Compiling typed-arena v2.0.2
+   Compiling rle-decode-fast v1.0.3
+   Compiling thiserror v1.0.69
+   Compiling iri-string v0.7.8
+   Compiling plain v0.2.3
+   Compiling remoteprocess v0.5.1
+   Compiling heck v0.5.0
+   Compiling cbindgen v0.28.0
+   Compiling lazy_static v1.5.0
+   Compiling fallible-iterator v0.3.0
+   Compiling addr2line v0.25.1
+   Compiling tower-http v0.6.8
+   Compiling clap_derive v4.5.47
+   Compiling tempfile v3.23.0
+   Compiling goblin v0.10.1
+   Compiling libflate_lz77 v2.1.0
+   Compiling nix v0.26.4
+   Compiling piper v0.2.4
+   Compiling async-channel v2.3.1
+   Compiling prost v0.14.1
+   Compiling rand v0.8.5
+   Compiling interprocess v1.2.1
+   Compiling clap v4.5.47
+   Compiling toml v0.8.22
+   Compiling url v2.5.7
+   Compiling serde_urlencoded v0.7.1
+   Compiling http-body-util v0.1.3
+   Compiling env_filter v0.1.3
+   Compiling thiserror-impl v1.0.69
+   Compiling rand_core v0.9.3
+   Compiling read-process-memory v0.1.6
+   Compiling futures-lite v2.6.0
+   Compiling bytemuck v1.23.0
+   Compiling jiff v0.2.14
+   Compiling adler32 v1.2.0
+   Compiling option-ext v0.2.0
+   Compiling dary_heap v0.3.7
+   Compiling arrayvec v0.7.6
+   Compiling async-task v4.7.1
+   Compiling virtue v0.0.18
+   Compiling heck v0.4.1
+   Compiling bincode_derive v2.0.1
+   Compiling blocking v1.6.1
+   Compiling num-format v0.4.4
+   Compiling libflate v2.1.0
+   Compiling env_logger v0.11.8
+   Compiling rgb v0.8.50
+   Compiling dirs-sys v0.5.0
+   Compiling rand_chacha v0.9.0
+   Compiling dashmap v6.1.0
+   Compiling spinning v0.1.0
+   Compiling crossbeam-channel v0.5.15
+   Compiling is-terminal v0.4.16
+   Compiling quick-xml v0.37.5
+   Compiling termcolor v1.4.1
+   Compiling unty v0.0.4
+   Compiling humantime v2.2.0
+   Compiling to_method v1.1.0
+   Compiling intmap v0.7.1
+   Compiling str_stack v0.1.0
+   Compiling iana-time-zone v0.1.63
+   Compiling chrono v0.4.42
+   Compiling inferno v0.12.3
+   Compiling env_logger v0.10.2
+   Compiling bincode v2.0.1
+   Compiling ctrlc v3.5.0
+   Compiling spytools v0.3.1
+   Compiling rand v0.9.2
+   Compiling directories v6.0.0
+   Compiling ffiruby v0.1.0 (/home/runner/work/pyroscope-rs/pyroscope-rs/pyroscope_ffi/ruby/ext/rbspy)
+   Compiling terminal_size v0.4.3
+   Compiling rbspy-ruby-structs v0.37.1
+   Compiling pretty_env_logger v0.5.0
+   Compiling rustls-webpki v0.103.3
+   Compiling tokio-rustls v0.26.2
+   Compiling rustls-platform-verifier v0.6.2
+   Compiling hyper-rustls v0.27.6
+   Compiling reqwest v0.13.1
+   Compiling pyroscope v0.5.9 (/home/runner/work/pyroscope-rs/pyroscope-rs)
+   Compiling ffikit v0.1.0 (/home/runner/work/pyroscope-rs/pyroscope-rs/pyroscope_ffi/ffikit)
+   Compiling rbspy v0.37.1
+warning: unused imports: `BackendImpl` and `BackendUninitialized`
+ --> pyroscope_ffi/ruby/ext/rbspy/src/backend.rs:3:33
+  |
+3 |         Backend, BackendConfig, BackendImpl, BackendUninitialized, Report, Rule, Ruleset,
+  |                                 ^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: `ffiruby` (lib) generated 1 warning (run `cargo fix --lib -p ffiruby` to apply 1 suggestion)
+    Finished `release` profile [optimized] target(s) in 2m 41s
+mkdir -p /home/runner/work/pyroscope-rs/pyroscope-rs/pyroscope_ffi/ruby/lib/rbspy
+cp /home/runner/work/pyroscope-rs/pyroscope-rs/target/x86_64-unknown-linux-gnu/release/librbspy.so /home/runner/work/pyroscope-rs/pyroscope-rs/pyroscope_ffi/ruby/lib/rbspy/rbspy.so
